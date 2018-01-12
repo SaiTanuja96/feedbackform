@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>        
+  <script type="text/javascript" src="index.js"></script>
+    <meta charset="utf-8"/>
+     <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Feedbackform</title>
+<link rel="stylesheet" href = "index.css" >
+       
+    </head>
+    <body>
+    <div class="main">
+        <div class="info">Give your feedback</div>
+        <form action="#" method="post" name="form" class="form-box">
+        <label for="Name">Name</label><br>
+            <input type="text" name="nameofuser" class="inp"id="name" placeholder="Enter your name" required><br>
+        <label for="Email">Email</label><br>
+            <input type="email" name="emailid" class="inp" id="email" placeholder="Enter your email" required><br>
+        <label for="phone">Phone</label><br>
+            <input type="tel" name="phone" class="inp" id="phone" placeholder="Enter your num" required><br>
+        <label for="Message">Message</label><br>
+            <textarea name="message" id="msgbox" placeholder="Enter your feedback"></textarea>
+<!--            <input type="submit" name="submit" value="send" id="sub_btn" onclick="submitClick()" class="sub-btn"> -->
+            <button onclick="submitClick()">SEND</button>
+    </form>
+           
+    </div>
+        
+        <button onclick="exe()">BUTTON</button>
+      
+    </body>
+</html>
+    

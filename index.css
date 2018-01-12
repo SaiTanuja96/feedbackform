@@ -1,0 +1,80 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    width: 500px;
+    margin: 50px auto;
+    border: 3px solid #dc143c;
+    border-radius: 10px;
+    background-color:aliceblue;
+    border-left:40px solid #dc143c;
+    
+}
+.info{
+    width: 100%;
+    padding: 8px;
+    background-color: #dc143c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px #000; 
+    
+}
+.form-box{
+    padding: 25px;
+}
+label{
+    color: navy;
+    font-size: 20px;
+}
+.inp #msgbox{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border: 2px solid #dc143c;
+    border-radius: 5px;
+    font-weight: bold;
+    border-right: 20px solid #dc143c;
+     border-left: 20px solid #dc143c;
+    color: navy;
+}
+.inp:focus #msgbox:focus{
+    outline: none;
+     border: 2px solid navy;
+    border-right: 20px solid navy;
+     border-left: 20px solid navy;
+}
+#msgbox{
+   resize: none;
+    height: 80px;
+    
+}
+.sub-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#dc143c,#800000);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sub-btn:focus{
+    outline: none;
+}
+.sub-btn:hover{
+       background: linear-gradient(#800000,#dc143c);
+    transition: all ease-out=0.2s;
+    opacity: 0.8;
+    filter: alpha(opacity=20);
+}
